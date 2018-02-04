@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "the backend portion of my app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwong2k16/FitnessBuddy.git"
+  },
+  "author": "Christopher Wong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cwong2k16/FitnessBuddy/issues"
+  },
+  "homepage": "https://github.com/cwong2k16/FitnessBuddy#readme",
+  "dependencies": {
+    "cookie-session": "^2.0.0-beta.3",
+    "express": "^4.16.2",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0"
+  }
+}
